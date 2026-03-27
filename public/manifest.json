@@ -1,0 +1,38 @@
+{
+  "name": "Ultimate Purple Music",
+  "short_name": "Purple Music",
+  "description": "Your premium purple music experience",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0010",
+  "theme_color": "#7c3aed",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [],
+  "categories": ["music", "entertainment"],
+  "shortcuts": [
+    {
+      "name": "Search Music",
+      "url": "/search",
+      "description": "Search for songs"
+    },
+    {
+      "name": "My Library",
+      "url": "/library",
+      "description": "View your music library"
+    }
+  ]
+}
